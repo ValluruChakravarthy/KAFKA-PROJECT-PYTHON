@@ -5,7 +5,7 @@ from fake import messagetype
 
 folderName="./"
 producer=KafkaProducer(
-    bootstrap_servers="chakri-kafka-project-chakri-service.l.aivencloud.com:15079",
+    bootstrap_servers="project-aiven-console-<>",
     security_protocol="SSL",
     ssl_cafile=folderName+"ca.pem",
     ssl_certfile=folderName+"service.cert",
